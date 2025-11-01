@@ -33,7 +33,7 @@ main{
 h1{
     text-align: center;
 }
-div{
+#sections-grid{
     display: grid;
     grid-template-columns: 2.1fr 1fr;
 }
@@ -74,9 +74,32 @@ img{
     border: #9fbed3 1px solid;
     border-radius: 30px;
 }
-li{
+.list-item{
     list-style-type: none;
 }
 nav li:hover{
     text-decoration: underline;
+}
+h3{
+    border-bottom: #000 solid 1px;
+    padding: 2px 0;
+    margin: 0;
+    font-size: medium;
+    text-align: center;
+}
+.city{
+    display: flex;
+    justify-content: center;
+}
+figcaption{
+    display: block;
+    font-family: helvetica;
+    font-style: italic;
+    margin: 0 0 4 10;
+}
+.section-list{
+    background-color: none;
+    list-style-type: square;
+    padding: 20px;
+    margin: 12px 0 0 74px;
 }
