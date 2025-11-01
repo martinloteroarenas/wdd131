@@ -1,0 +1,73 @@
+:root{
+    font-family: 'momo trust display', 'Open Sans', 'Helvetica Neue', sans-serif;
+    --primary-color: rgb(250, 225, 194);
+    --secondary-color: #9fbed3;
+    --heading-font: 'momo trust display';
+    --body-font: Arial;
+    
+}
+body{
+    max-width: 800px;
+    margin: 0 auto;
+}
+#course-title{
+    display: block;
+    background-color: lightgray;
+    text-align: center;
+    padding: 12px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    padding: 8px;
+    margin: 0;
+}
+main{
+    max-width: 95%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+div{
+    display: grid;
+    grid-template-columns: 2.1fr 1fr;
+}
+h2{
+    text-align: center;
+    background-color: var(--primary-color);
+    margin: 10px 0px;
+    font-size: medium;
+}
+div p{
+    padding: 6px;
+}
+.card{
+    padding: 0;
+    margin: 6px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+}
+.about-me{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+footer{
+    display: block;
+    text-align: center;
+    background-color: lightgray;
+    padding: 2px;
+    margin: 4px 0 0 0;
+    font-size: small;
+}
+p{
+    margin: 6px;
+    font-family: 'helvetica';
+    font-size: larger;
+}
+img{
+    padding: 12px;
+    border: #9fbed3 1px solid;
+    border-radius: 30px;
+}
