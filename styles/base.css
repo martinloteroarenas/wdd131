@@ -71,3 +71,6 @@ img{
     border: #9fbed3 1px solid;
     border-radius: 30px;
 }
+li{
+    list-style-type: none;
+}
