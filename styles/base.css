@@ -19,7 +19,7 @@ body{
     text-align: center;
     padding: 12px;
 }
-ul{
+.nav-list{
     display: flex;
     justify-content: space-around;
     background-color: var(--primary-color);
