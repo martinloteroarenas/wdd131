@@ -6,9 +6,6 @@
 }
 @media screen and (max-width: 614px)
 {
-    main{
-        background-color: blue;
-    }
     #menu{
     display: block;
     font-size: 1.6rem;
@@ -17,7 +14,7 @@
     padding: 0 0 .14rem 0;
     background-color: var(--secondary-color);
     margin: 0;
-    color: black;
+    color: #000000;
     width:100% ;
     }
     #menu::before{
