@@ -49,3 +49,7 @@ nav li{
     display: block;
     flex: 1 1 100%;
 }
+.title{
+    font-family: var(--title-font);
+    font-size:2rem;
+}
