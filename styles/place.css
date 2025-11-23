@@ -1,6 +1,6 @@
 :root{
-    --color1: #00461d;
-    --color2: #faffe6;
+    --color1: #c50000;
+    --color2: #feffd1;
     --font-color1: #000000;
     --font-color2: #ffffff;
 }
@@ -16,4 +16,36 @@ header, footer{
 }
 main{
     text-align: center;
+    background-color: var(--color2);
+}
+p{
+    margin: 0;
+    padding: 12px;
+    font-family: Arial;
+    font-size:medium;
+}
+h1, h2{
+    font-family: Helvetica, sans-serif;
+}
+.data-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.data{
+    text-align: right;
+    font-weight:bold;
+}
+.content{
+    text-align: left;
+}
+.weather-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.weather{
+    text-align: right;
+    font-weight: bold;
+}
+.weather-data{
+    text-align: left;
 }
