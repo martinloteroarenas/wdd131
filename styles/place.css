@@ -49,6 +49,6 @@ h1, h2{
 .weather-data{
     text-align: left;
 }
-img, source{
+.hero, source{
     width: 100%;
 }
