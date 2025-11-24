@@ -1,8 +1,8 @@
 :root{
-    --color1:red;
-    --color2:lightyellow;
-    --font-color1: black;
-    --font-color2: white;
+    --color1:rgba(255, 0, 0);
+    --color2:rgb(253, 253, 220);
+    --font-color1: rgba(0,0,0);
+    --font-color2: rgba(255,255,255);
 }
 body{
     width: 100%;
