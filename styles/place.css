@@ -22,10 +22,11 @@ p{
     margin: 0;
     padding: 12px;
     font-family: Arial;
-    font-size:medium;
+    font-size:xx-large;
 }
 h1, h2{
     font-family: Helvetica, sans-serif;
+    font-size: xx-large;
 }
 .data-grid{
     display: grid;
@@ -51,4 +52,7 @@ h1, h2{
 }
 .hero, source{
     width: 100%;
+}
+img{
+    width: 130px;
 }
