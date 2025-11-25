@@ -1,5 +1,5 @@
 :root{
-    --color1:rgba(255, 0, 0);
+    --color1:rgb(170, 0, 0);
     --color2:rgb(253, 253, 220);
     --font-color1: rgba(0,0,0);
     --font-color2: rgba(255,255,255);
@@ -55,4 +55,7 @@ h1, h2{
 }
 img{
     width: 130px;
+}
+span{
+    color: var(--font-color2);
 }
