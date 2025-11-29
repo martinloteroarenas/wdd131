@@ -1,0 +1,32 @@
+@media screen and (max-width: 1095px)
+{
+    img{
+        max-width: 210px;
+    }
+}
+@media screen and (max-width: 614px)
+{
+    #menu{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0 0 .14rem 0;
+    background-color: var(--secondary-color);
+    margin: 0;
+    color: #000000;
+    width:100% ;
+    }
+    #menu::before{
+    content: '☰';
+    }
+    #menu.show::before{
+    content: 'x';
+    }
+    .navigation{
+        display: none;
+    }
+    .show{
+    display: block;
+    }
+}
