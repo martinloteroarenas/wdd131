@@ -65,7 +65,12 @@ img{
 }
 div section p{
     margin: 4px;
+    font-family: var(--body-font);
 }
 div section h2{
     margin: 16px;
+    font-family: var(--title-font);
+}
+footer{
+    font-family: var(--body-font);
 }
