@@ -1,0 +1,53 @@
+:root{
+    --backgroundColor1:#ffdaa3;
+    --backgroundColor2:#ff3c7d;
+    --backgroundColor3:#ffffff;
+    --headingFont: "Story Script", sans-serif;
+    --contentFont: "kedebideri", Times;
+}
+header, main, footer{
+    margin: 0 auto;
+    width: 900px;
+}
+header, footer{
+    background-color: var(--backgroundColor1);
+    padding: 8px 0;
+    text-align: center;
+}
+main{
+    background-color: var(--backgroundColor2);
+    padding: 20px 0;
+}
+section{
+    background-color: var(--backgroundColor3);
+    width: 300px;
+    margin: 0 auto 14px auto;
+    padding: 8px;
+    border-radius: 12px;
+}
+div{
+    padding: 20px 0 0 0;
+}
+h1,h2{
+    font-family: var(--headingFont);
+    font-weight: 400;
+}
+p, li{
+    font-family: var(--contentFont);
+    font-weight: 500;
+}
+.heading-text{
+    padding: 0 40px;
+}
+.wireframe{
+    width: 680px;
+    background-color: var(--backgroundColor1);
+}
+figure{
+    margin: 0;
+    font-family: var(--contentFont);
+}
+figcaption{
+    margin: 8px;
+    text-align: center;
+}
