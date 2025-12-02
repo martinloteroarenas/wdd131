@@ -9,6 +9,7 @@ header, footer{
     margin: 0 auto ;
     background-color: #f3ebff;
     text-align: center;
+    padding: 2px;
 }
 nav ul{
     display: flex;
@@ -23,7 +24,7 @@ nav ul li a:hover {
 }
 main{
     width: 70%;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 8px;
     text-align: center;
