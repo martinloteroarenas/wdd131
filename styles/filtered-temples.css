@@ -4,7 +4,7 @@
     --title-font: "Delius", 'Times New Roman';
     --body-font: Arial, Helvetica, sans-serif;
 }
-header, main, footer{
+header, footer{
     width: 70%;
     margin: 0 auto ;
     background-color: #f3ebff;
@@ -22,19 +22,21 @@ nav ul li a:hover {
     padding: 4px;
 }
 main{
+    width: 70%;
     max-width: 800px;
     margin: 0 auto;
     padding: 8px;
+    text-align: center;
 }
 h1{
     font-family: var(--title-font);
     margin: 0;
     padding: 0 0 8px 0;
 }
-.photos{
+#temples{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(240px, 1fr));
+    gap: 8px;
 }
 figure{
     margin: 0;
@@ -52,4 +54,17 @@ nav li{
 .title{
     font-family: var(--title-font);
     font-size:2rem;
+}
+img{
+    max-width: 90%;
+    padding: 4px;
+}
+.temple-card{
+    background-color: #f3ebff;
+}
+div section p{
+    margin: 4px;
+}
+div section h2{
+    margin: 16px;
 }
