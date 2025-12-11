@@ -30,3 +30,21 @@ const products = [
     averagerating: 5.0
   }
 ];
+
+document.addEventListener('DOMContentLoaded', () => {
+    const productSelect = document.getElementById("product_name");
+
+    products.forEach(product => {
+        const productElement = document.createElement("option");
+
+        productElement.textContent = product.name;
+
+        productElement.setAttribute("value", product.id);
+
+        productElement.setAttribute("id", product.id);
+        productElement.setAttribute("name", product.name);
+
+        productSelect.appendChild(productElement);
+    });
+        
+});

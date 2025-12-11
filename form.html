@@ -6,8 +6,8 @@
     <meta name="description" content="a webpage with a form">
     <meta name="author" content="Martin Lotero Arenas">
     <link rel="stylesheet" href="styles/form.css">
-    <script src="scripts/form.js" defer></script>
     <title>Form</title>
+    <script src="scripts/form.js" defer></script>
 </head>
 <body>
     <header>
@@ -20,12 +20,8 @@
             <fieldset>
                 <label>
                     <legend>Product Name <span class="required-symbol">*</span></legend>
-                    <select id="product-name" name="productname" required>
-                        <option selected disabled>Choose a Product...</option>
-                        <option value="field" required>a.</option>
-                        <option value="field" required>b.</option>
-                        <option value="field" required>c.</option>
-                        <option value="field" required>d.</option>
+                    <select id="product_name" name="productname" required>
+                        <option selected disabled value="">Choose a Product...</option>
                     </select>
                 </label>
             </fieldset>

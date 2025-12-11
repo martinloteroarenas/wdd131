@@ -76,3 +76,7 @@ input[type="checkbox"] {
 .required-symbol{
     color: var(--symbolcolor);
 }
+#product_name{
+    width: 100%;
+    height: 32px;
+}
