@@ -1,0 +1,105 @@
+:root{
+    --backgroundColor1:#ffdaa3;
+    --backgroundColor2:#ff3c7d;
+    --backgroundColor3:#ffffff;
+    --headingFont: "Story Script", sans-serif;
+    --contentFont: "kedebideri", Times;
+}
+header, main, footer{
+    margin: 0 auto;
+    width: 50%;
+}
+header,footer{
+    background-color: var(--backgroundColor1);
+    padding: 10px 0;
+}
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.logo-name{
+    font-family: var(--headingFont);
+    font-size: xx-large;
+}
+.nav-tag{
+    font-family: var(--contentFont);
+    font-size: xx-large;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+}
+.border{
+    border-left: 2px #000 solid;
+    border-right: 2px #000 solid;
+
+}
+#logo{
+    padding-left: 68px;
+}
+.hero{
+    max-width: 100%;
+}
+nav{
+    padding: 0 4px;
+}
+main{
+    background-color: var(--backgroundColor2);
+    padding: 0 0 16px 0;
+}
+.content-grid{
+    display: grid;
+    grid-template-columns: 40% 56%;
+    text-align: center;
+    grid-gap: 4%;
+    padding: 10px 26px 0 26px;
+}
+article{
+    background-color: var(--backgroundColor3);
+    border-radius: 20px;
+    padding: 14px 14px 14px 14px;
+}
+.info{
+    display: grid;
+    grid-template-columns: 20% 75%;
+    align-items: end;
+    text-align: left;
+    grid-gap: 5%;
+    
+}
+.icon{
+    padding: 1px 10px 0 10px;
+}
+h3{
+    text-align: right;
+    margin: 0;
+    padding: 0 0 16px 0;
+    font-family: var(--headingFont);
+}
+h2{
+    margin: 0 0 10px 0;
+    font-family: var(--headingFont);
+    font-size:xx-large;
+}
+p{
+    font-family: var(--contentFont);
+    font-weight: 600;
+}
+footer{
+    text-align: center;
+}
+.purpose{
+    font-size:1.6rem;
+    font-weight: 400;
+    font-family: var(--contentFont);
+}
+.info-text{
+    width: 100%;
+}

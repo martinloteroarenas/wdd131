@@ -3,13 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Alheli flowershop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kedebideri:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/floreria.css">
+    <link rel="stylesheet" href="styles/floreria-large.css">
+    <script src="scripts/floreria.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Alelhi Floreria</h1>
+        <img src="images/flower.svg" alt="flowershop logo" id="logo" width="100" loading="lazy">
+        <nav>
+            <ul>
+                <li>
+                    <a class="logo-name">Alheli Flowershop</a>
+                </li>
+                <li>
+                    <a class="nav-tag" href="alheli-floreria.html">Home</a>
+                </li>
+                <li class="border">
+                    <a class="nav-tag" href="catalog.html">Catalog</a>
+                </li>
+                <li>
+                    <a class="nav-tag" href="">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <main>content</main>
-    <footer><p>yeah</p></footer>
+    <main>
+        <img src="images/funebre_large.webp" alt="flowers hero image" class="hero" loading="lazy">
+        <div class="content-grid">
+            <article>
+                <h2 class="purpose">
+                    We want to offer you the best service so you can find the perfect bouquet! We adapt to your needs and create floral arrangements for all kinds of special occasions such as Valentine's Day, Mother's Day, birthdays, graduations, and weddings.
+                </h2>
+            </article>
+            <article>
+                <h2>
+                    General info
+                </h2>
+                <div class="info">    
+                    <h3><span><img src="images/truck.svg" alt="a truck icon" class="icon" width="30"></span>Delivery:</h3>
+                    <p>Home delivery throughout Pereira</p>
+                </div>
+                <div class="info">
+                    <h3><span><img src="images/clock.svg" alt="a clock icon" class="icon" width="30"></span>Customer Service:</h3>
+                    <p class="info-text">Monday to Friday from 8:30 am to 6 pm Colombia time</p>
+                </div>
+                <div class="info">
+                    <h3><span><img src="images/stars.svg" alt="stars icon" class="icon" width="30"></span>Quality:</h3>
+                    <p class="info-text">We have the freshest flowers in town</p>
+                </div>
+                <div class="info">
+                    <h3><span><img src="images/cash.svg" alt="cash icon" class="icon" width="30"> </span>Payment Methods:</h3>
+                    <p class="info-text">We accept cash and bank transfers</p>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <p>
+            ©
+            <span id="year"></span>
+            Martin Lotero Arenas
+            Pereira Colombia
+        </p>
+        <p>last modification:
+            <span id="lastModified"></span>
+        </p>
+    </footer>
 </body>
 </html>

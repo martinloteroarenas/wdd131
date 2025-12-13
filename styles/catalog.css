@@ -1,0 +1,91 @@
+:root{
+    --backgroundColor1:#ffdaa3;
+    --backgroundColor2:#ff3c7d;
+    --backgroundColor3:#ffffff;
+    --headingFont: "Story Script", sans-serif;
+    --contentFont: "kedebideri", Times;
+}
+header, main, footer{
+    margin: 0 auto;
+    width: 50%;
+}
+header,footer{
+    background-color: var(--backgroundColor1);
+    padding: 10px 0;
+}
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.logo-name{
+    font-family: var(--headingFont);
+    font-size: xx-large;
+}
+.nav-tag{
+    font-family: var(--contentFont);
+    font-size: xx-large;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+}
+.border{
+    border-left: 2px #000 solid;
+    border-right: 2px #000 solid;
+
+}
+footer{
+    text-align: center;
+}
+#logo{
+    padding-left: 68px;
+}
+.hero{
+    max-width: 100%;
+}
+nav{
+    padding: 0 4px;
+}
+p{
+    font-family: var(--contentFont);
+    font-weight: 600;
+}
+
+/*images*/
+#temples{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px, 1fr));
+    gap: 8px;
+}
+a, figcaption{
+    font-family: var(--body-font);
+}
+img{
+    max-width: 90%;
+    padding: 4px;
+}
+.temple-card{
+    background-color: #f3ebff;
+}
+div section p{
+    margin: 4px;
+    font-family: var(--body-font);
+}
+div section h2{
+    margin: 16px;
+    font-family: var(--title-font);
+}
+main{
+    width: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 8px;
+    text-align: center;
+}
