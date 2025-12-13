@@ -7,82 +7,82 @@ const templesContainer = document.getElementById('temples');
 
 const temples = [
   {
-    templeName: "Aba Nigeria",
-    location: "Aba, Nigeria",
-    dedicated: "2005, August, 7",
-    area: 11500,
+    templeName: "Floral Arrangement",
+    location: "Large",
+    dedicated: "wooden case",
+    area: 200,
     imageUrl:
     "images/biggest.webp"
   },
   {
-    templeName: "Manti Utah",
-    location: "Manti, Utah, United States",
-    dedicated: "1888, May, 21",
-    area: 74792,
+    templeName: "Floral Arrangement curved",
+    location: "Large",
+    dedicated: "wooden case",
+    area: 180,
     imageUrl:
     "images/curve.webp"
   },
   {
-    templeName: "Payson Utah",
-    location: "Payson, Utah, United States",
-    dedicated: "2015, June, 7",
-    area: 96630,
+    templeName: "Centerpiece",
+    location: "Large",
+    dedicated: "Ceramic case",
+    area: 260,
     imageUrl:
     "images/colorfull.webp"
   },
   {
-    templeName: "Yigo Guam",
-    location: "Yigo, Guam",
-    dedicated: "2020, May, 2",
-    area: 6861,
+    templeName: "Yellow Floral Arrangement",
+    location: "Medium",
+    dedicated: "Wooden case",
+    area: 180,
     imageUrl:
     "images/yellow.webp"
   },
   {
-    templeName: "Washington D.C.",
-    location: "Kensington, Maryland, United States",
-    dedicated: "1974, November, 19",
-    area: 156558,
+    templeName: "red/white Floral Arrangement",
+    location: "Medium",
+    dedicated: "Wooden case",
+    area: 150,
     imageUrl:
     "images/red-white.webp"
   },
   {
-    templeName: "Lima Perú",
-    location: "Lima, Perú",
-    dedicated: "1986, January, 10",
-    area: 9600,
+    templeName: "Blue Bunch of Flowers",
+    location: "small",
+    dedicated: "none",
+    area: 80,
     imageUrl:
     "images/blue.webp"
   },
   {
-    templeName: "Mexico City Mexico",
-    location: "Mexico City, Mexico",
-    dedicated: "1983, December, 2",
-    area: 116642,
+    templeName: "Semi Colorfull Floral Arrangement",
+    location: "Large",
+    dedicated: "Wooden case",
+    area: 200,
     imageUrl:
     "images/semi-colorfull.webp"
   },
   {
-    templeName: "Bogota Colombia",
-    location: "Bogotá Colombia",
-    dedicated: "1999, April, 24-26",
-    area: 53500,
+    templeName: "Floral Arrangement with Fruits",
+    location: "Medium",
+    dedicated: "Wooden case",
+    area: 140,
     imageUrl:
     "images/fruits.webp"
   },
   {
-    templeName: "Barranquilla Colombia",
-    location: "Barranquilla Colombia",
-    dedicated:"2018, december, 9",
-    area: 25349,
+    templeName: "Bouquet",
+    location: "small",
+    dedicated:"none",
+    area: 80,
     imageUrl:
     "images/lirio.webp"
   },
   {
-    templeName: "Cochabamba Bolivia",
-    location: "Cochabamba Bolivia",
-    dedicated: "2000, April, 30",
-    area: 35500,
+    templeName: "Funeral Arrangement",
+    location: "Large",
+    dedicated: "Wooden case",
+    area: 220,
     imageUrl:
     "images/funebre.webp"
   }
@@ -106,15 +106,15 @@ function createTempleCard(){
 
     //crear y añadir Ubicación, dedicacion y area (P)
     const locationP = document.createElement('p');
-    locationP.innerHTML = `Location: ${temple.location}`;
+    locationP.innerHTML = `Size: ${temple.location}`;
     cardSec.appendChild(locationP);
 
     const dedicatedP = document.createElement('p');
-    dedicatedP.innerHTML = `Dedicated: ${temple.dedicated}`;
+    dedicatedP.innerHTML = `Container: ${temple.dedicated}`;
     cardSec.appendChild(dedicatedP);
         
     const areaP = document.createElement('p');
-    areaP.innerHTML = `Area: ${temple.area} sq ft`;
+    areaP.innerHTML = `Price: ${temple.area} $`;
     cardSec.appendChild(areaP);
 
     //crear y añadir la Imagen (IMG) ---
